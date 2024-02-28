@@ -12,7 +12,7 @@ export default function () {
   const url = 'http://localhost:3333/signup'
 
   const payload = JSON.stringify(
-    { email: `${uuid.v4()}@qa.theotokus.com`, password: 'pwd@123' }
+    { email: `${uuid.v4().substring(24)}@qa.theotokus.com`, password: 'pwd@123' }
   )
   const headers = {
     'headers': {
