@@ -50,9 +50,13 @@ Execute os comandos abaixo para instalar das dependências do projeto:
 
 ```sh
 cd curso-k6-basico/api
-yarn install
-yarn dev
+npm install
+npm run dev
+
+
 ```
+rodando com 10 usuarios simultaneos por 30 segundos
+k6 run --vus 10 --duration 30s hello.js
 
 ## 📝 License
 
