@@ -1,8 +1,10 @@
-# Introdução aos testes de performance com k6
+<!-- # Introdução aos testes de performance com k6 -->
+# Testes de performance com k6
 
-<h1 align="left">
+<!-- <h1 align="left">
     <img src=".github/logo-stiker.svg" width="250px">
-</h1>
+</h1> -->
+Este repositório contém testes de performance utlizando o framework K6. Esses testes foram desenvolvidos para fazer a validação dos requisitos não funcionais e analisar seu devido comportamento em meio ao plano de testes apresentado (no decorrer deste documento).
 
 # User API
 
@@ -24,10 +26,10 @@
 
 ### Cadastro
 
-- [ ] O cadastro com sucesso deve ocorrer em até 2 segundos
-- [ ] Cadastros sem sucesso devem ocorrer em até 2 segundos
-- [ ] Deve poder cadastrar até 100 usuários simultâneos
-- [ ] A margem de erro no cadastro deve ser de pelo menos 1%
+- [X] O cadastro com sucesso deve ocorrer em até 2 segundos
+- [X] Cadastros sem sucesso devem ocorrer em até 2 segundos
+- [X] Deve poder cadastrar até 100 usuários simultâneos
+- [X] A margem de erro no cadastro deve ser de pelo menos 1%
 
 ## 🚀 Tecnologias
 
@@ -52,8 +54,6 @@ Execute os comandos abaixo para instalar das dependências do projeto:
 cd curso-k6-basico/api
 npm install
 npm run dev
-
-
 ```
 rodando com 10 usuarios simultaneos por 30 segundos
 k6 run --vus 10 --duration 30s hello.js
@@ -63,5 +63,6 @@ k6 run --vus 10 --duration 30s hello.js
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feito com 💜 &nbsp;por Fernando Papito 👋 &nbsp;[Meu linkedin](https://www.linkedin.com/in/papitoio/)
+## Agradecimento
+<!-- Feito com 💜 &nbsp;por Fernando Papito 👋 &nbsp;[Meu linkedin](https://www.linkedin.com/in/papitoio/) -->
+Agradecimento especial ao Fernando Papito que vem contribuindo e popularizando cada vez mais com seus treinamentos e incentivo aos estudos de testes em nome da QAx.
